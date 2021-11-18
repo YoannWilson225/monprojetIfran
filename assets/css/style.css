@@ -686,6 +686,236 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Specials
+--------------------------------------------------------------*/
+.specials {
+  overflow: hidden;
+}
+.specials .nav-tabs {
+  border: 0;
+}
+.specials .nav-link {
+  border: 0;
+  padding: 12px 15px 12px 0;
+  transition: 0.3s;
+  color: #433f39;
+  border-radius: 0;
+  border-right: 2px solid #e8e7e4;
+  font-weight: 600;
+  font-size: 15px;
+}
+.specials .nav-link:hover {
+  color: #ffb03b;
+}
+.specials .nav-link.active {
+  color: #ffb03b;
+  border-color: #ffb03b;
+}
+.specials .tab-pane.active {
+  -webkit-animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
+}
+.specials .details h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #433f39;
+}
+.specials .details p {
+  color: #777777;
+}
+.specials .details p:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  .specials .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+  .specials .nav-link.active {
+    color: #fff;
+    background: #ffb03b;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# command
+--------------------------------------------------------------*/
+
+.send-message .btn-command {
+  background: #ffb03b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.galerie {
+  padding-bottom: 0;
+}
+.galerie .galerie-item {
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+.galerie .galerie-item img {
+  transition: all ease-in-out 0.4s;
+}
+.galerie .galerie-item:hover img {
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
+# Chefs
+--------------------------------------------------------------*/
+.chefs {
+  background: url("../img/chefs-bg.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+}
+.chefs::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 9;
+}
+.chefs .container {
+  position: relative;
+  z-index: 10;
+}
+.chefs .member {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.chefs .member .pic {
+  overflow: hidden;
+}
+.chefs .member .member-info {
+  position: absolute;
+  bottom: -80px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 20px 0;
+  color: #433f39;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+.chefs .member h4 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #6c665c;
+  position: relative;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.chefs .member h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #ffcf88;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+.chefs .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+.chefs .member .social {
+  margin-top: 15px;
+}
+.chefs .member .social a {
+  transition: color 0.3s;
+  color: #7a7368;
+}
+.chefs .member .social a:hover {
+  color: #ffb03b;
+}
+.chefs .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+@media (max-width: 992px) {
+  .chefs .member {
+    margin-bottom: 110px;
+  }
+}
+@media (min-width: 1024px) {
+  .chefs {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-wrap {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+.contact .info {
+  background: #fff;
+}
+.contact .info i {
+  font-size: 20px;
+  color: #ffb03b;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #fff6e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #433f39;
+  font-family: "Poppins", sans-serif;
+}
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #7a7368;
+}
+.contact .info:hover i {
+  background: #ffb03b;
+  color: #fff;
+}
+
+.contact .send-message .btn-command {
+  background: #ffb03b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
