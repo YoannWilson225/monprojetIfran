@@ -1,0 +1,38 @@
+ordre de presentation 
+
+parler de mon projet et donner le sujet
+donner le sommaire
+
+
+PRESENTATION DE LA MAQUETTE
+presenter la maquette
+
+VUE DENSEMBLE DU PROJET RESSOURCES FOURNIES
+fais une vue d'ensemble du projet
+
+PREVISUALISATION DU SITE
+montrer la partie accueil puis le code html css
+montrer la partie menu 
+montrer la partie commander
+montrer le footer
+
+PROCESSUS DE MISE EN LIGNE 
+parler du processus de mise en ligne 
+expliquer brievement github et netlify puis expliquer la mise en ligne
+
+GitHub est centré vers l'aspect social du développement. 
+En plus d'offrir l'hébergement de projets avec Git, 
+le site offre de nombreuses fonctionnalités habituellement
+ retrouvées sur les réseaux sociaux comme les flux, 
+la possibilité de suivre des personnes ou des projets 
+ainsi que des graphes de réseaux pour les dépôts (en anglais repository).
+
+
+PROJET FINI
+mettre le site sur des mackup telephone et ordinateur 
+ajouter un lien menant directement au site pour ne pas a se disperser dans la présentation 
+
+EXPERIENCE INTERACTIVE
+foournir le lien du site à l'oditoire pour une expérience personnelle
+montrer les fonctionnalités du site pendant que l'oditoire suit avec vous 
+enfin conclure 
